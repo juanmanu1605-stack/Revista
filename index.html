@@ -99,7 +99,7 @@
 <body>
   <!-- Animación de intro -->
   <div id="intro-container">
-    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/ Revista@main/assets/inicio.jpg" alt="Intro Animation">
+    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/Revista@main/assets/inicio.jpg" alt="Intro Animation">
   </div>
 
   <!-- Botones de control fijos -->
@@ -112,7 +112,7 @@
   <a-scene
     vr-mode-ui="enabled: false"
     device-orientation-permission-ui="enabled: false"
-    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/juanmanu1605-stack/ Revista@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
+    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/juanmanu1605-stack/Revista@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
     color-space="sRGB"
     renderer="colorManagement: true, physicallyCorrectLights"
   >
@@ -121,11 +121,11 @@
       
       <!-- Marker 0 Assets -->
       <video id="video0"
-             src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/ Revista@main/assets/Media.mp4"
+             src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/Revista@main/assets/media1.mp4"
              preload="auto" loop playsinline webkit-playsinline crossorigin="anonymous">
       </video>
-      <img id="mask0" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/ Revista@main/assets/mask1.png" crossorigin="anonymous">
-      <img id="frame0" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/ Revista@main/assets/Frame.png" crossorigin="anonymous">
+      <img id="mask0" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/Revista@main/assets/mask1b.jpg" crossorigin="anonymous">
+      <img id="frame0" src="https://cdn.jsdelivr.net/gh/juanmanu1605-stack/Revista@main/assets/frame1.png" crossorigin="anonymous">
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -254,32 +254,32 @@
         markerGroupId: 'markerGroup0',
 
         // Global
-        globalScale: 1.83,
+        globalScale: 1.2,
         globalPositionX: 0,
         globalPositionY: 0,
-        globalPositionZ: 0.31,
+        globalPositionZ: 0,
         
         // Video
-        videoScale: 1.11,
+        videoScale: 2,
         videoPositionX: 0,
-        videoPositionY: 0.02,
+        videoPositionY: 0,
         videoPositionZ: 0.02,
         
         // Frame/Overlay
-        overlayScale: 1.36,
-        framePositionX: 0,
+        overlayScale: 1.91,
+        framePositionX: -0.04,
         framePositionY: 0,
-        framePositionZ: 0.05,
+        framePositionZ: 0.1,
         
         // Mask
-        maskScale: 1.63,
+        maskScale: 1,
         maskPositionX: 0,
         maskPositionY: 0,
 
         // Rotation
         rotationMin: 0,
-        rotationMax: 20,
-        rotationSpeed: 0.5
+        rotationMax: 22,
+        rotationSpeed: 0.3
       }
     ];
 
